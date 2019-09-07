@@ -1,1 +1,1 @@
-# xamppprjs
+# htdocs
