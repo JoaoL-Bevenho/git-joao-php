@@ -1,0 +1,70 @@
+{
+	"principal": 
+[		{
+			"url": null,
+			"cidade": "todas",
+			"cliente": "lanche do zé",
+			"img": "http://192.168.0.104:8080/painel-agendalocal/aplicativo/banners/principal/banner1.jpg"
+		},
+		{
+			"url": null,
+			"cidade": "todas",
+			"cliente": "lanche do zé2",
+			"img": "http://192.168.0.104:8080/painel-agendalocal/aplicativo/banners/principal/banner2.jpg"
+		},
+		{
+			"url": null,
+			"cidade": "todas",
+			"cliente": "Banner 3",
+			"img": "http://192.168.0.104:8080/painel-agendalocal/aplicativo/banners/principal/banner3.jpg"
+		}
+	],
+	"rodape": [
+		{
+			"url": null,
+			"cidade": "todas",
+			"cliente": "lanche do zé3",
+			"img": "http://192.168.0.104:8080/painel-agendalocal/aplicativo/banners/rodape/rodape1.jpg"
+		},
+		{
+			"url": "http://google.com.br",
+			"cidade": "todas",
+			"cliente": "lanche do zé4",
+			"img": "http://192.168.0.104:8080/painel-agendalocal/aplicativo/banners/rodape/rodape2.jpg"
+		}
+	],
+	"ferramentas": {
+		"churrasco": [
+			{
+				"url": null,
+				"cidade": "todas",
+				"cliente": "casa de carne",
+				"img": "http://192.168.0.104:8080/painel-agendalocal/aplicativo/banners/ferramentas/churrasco/1.jpg"
+			}
+		]
+	},
+	"atividades": {
+		"12": [
+				{
+					"url": null,
+					"cidade": "todas",
+					"cliente": "lanche do zé5",
+					"img": "http://192.168.0.104:8080/painel-agendalocal/aplicativo/banners/rodape/rodape1.jpg"
+				},
+				{
+					"url": "http://google.com.br",
+					"cidade": "todas",
+					"cliente": "lanche do zé6",
+					"img": "http://192.168.0.104:8080/painel-agendalocal/aplicativo/banners/rodape/rodape2.jpg"
+				}
+			],
+		"2": [
+				{
+					"url": "http://google.com.br",
+					"cidade": "todas",
+					"cliente": "lanche do zé7",
+					"img": "http://192.168.0.104:8080/painel-agendalocal/aplicativo/banners/rodape/rodape1.jpg"
+				}
+			]
+	}
+}

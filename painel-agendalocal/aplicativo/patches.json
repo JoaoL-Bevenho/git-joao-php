@@ -1,0 +1,4 @@
+[
+	{"nome": "atividades", "url":"http://192.168.0.104:8080/painel-agendalocal/aplicativo/patch/atividades.sql", "versao":"1"},
+	{"nome": "categorias", "url":"http://192.168.0.104:8080/painel-agendalocal/aplicativo/patch/categorias.sql", "versao":"1"}
+]
