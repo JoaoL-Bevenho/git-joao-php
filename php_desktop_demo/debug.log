@@ -1,0 +1,2108 @@
+- 10:58:44.469 INFO: --------------------------------------------------------
+- 10:58:44.484 INFO: Started application
+- 10:58:44.484 INFO: Logging to: C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 10:58:44.484 INFO: Log level = DEBUG4
+- 10:58:44.484 INFO: Starting Mongoose 3.9c web server
+- 10:58:44.484 INFO: WWW directory: C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 10:58:44.484 INFO: Index files: index.html,index.php
+- 10:58:44.484 INFO: CGI interpreter: C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 10:58:44.484 INFO: CGI pattern: **.php$
+- 10:58:44.484 INFO: Hide files patterns: 
+- 10:58:44.484 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:58:44.500 INFO: Web server url: http://127.0.0.1:50730/
+- 10:58:44.594 INFO: remote_debugging_port = 59609
+- 10:58:45.000 DEBUG: Command line string for the browser process: "C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=59609
+- 10:58:49.062 DEBUG: Command line string for the gpu-process process: "C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=3B82A551FEBFB6DD667F2AA010A785D1 --mojo-platform-channel-handle=1780 /prefetch:2
+- 10:58:50.734 DEBUG: App::OnContextInitialized()
+- 10:58:50.734 DEBUG: Window max width/height = 1762/1032
+- 10:58:50.734 DEBUG: GetBrowserWindow(): not found, hwnd = 199604
+- 10:58:50.750 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:58:50.750 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:58:50.750 DEBUG: StoreBrowserWindow(): hwnd = 199604
+- 10:58:53.984 DEBUG: ClientHandler::OnAfterCreated()
+- 10:58:53.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:58:54.000 DEBUG: Command line string for the renderer process: "C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=8727E288A75A2B19623FC8479B1F74A8 --lang=en-US --lang=en-US --log-file="C:\Users\joaol\Downloads\php_desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8727E288A75A2B19623FC8479B1F74A8 --renderer-client-id=3 --mojo-platform-channel-handle=2312 /prefetch:1
+- 10:58:54.375 DEBUG: OnLoadingStateChange: loading=1, url=
+[0221/105856.659:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:59:02.843 DEBUG: OnBrowserCreated()
+- 10:59:04.781 INFO: GET 200 /style.css
+- 10:59:04.828 INFO: GET 200 /
+- 10:59:05.531 DEBUG: OnContextCreated()
+- 10:59:06.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50730/
+- 10:59:19.859 DEBUG: WM_DESTROY
+- 10:59:19.875 DEBUG: RemoveBrowserWindow(): hwnd = 199604
+- 10:59:19.875 INFO: Stopping Mongoose web server
+- 10:59:19.875 DEBUG: Mongoose webserver stopped immediately
+- 10:59:19.890 DEBUG: OnBeforeClose() hwnd=199610
+- 10:59:19.890 DEBUG: RemoveBrowserWindow(): hwnd = 199610
+- 10:59:19.906 DEBUG: GetBrowserWindow(): not found, hwnd = 199610
+- 10:59:19.906 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:59:19.906 DEBUG: Calling CefQuitMessageLoop()
+- 10:59:19.406 DEBUG: OnBrowserDestroyed()
+- 10:59:20.469 INFO: Ended application
+- 10:59:20.469 INFO: --------------------------------------------------------
+- 11:00:35.157 INFO: --------------------------------------------------------
+- 11:00:35.157 INFO: Started application
+- 11:00:35.157 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 11:00:35.157 INFO: Log level = DEBUG4
+- 11:00:35.157 INFO: Starting Mongoose 3.9c web server
+- 11:00:35.157 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 11:00:35.157 INFO: Index files: index.html,index.php
+- 11:00:35.157 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 11:00:35.157 INFO: CGI pattern: **.php$
+- 11:00:35.157 INFO: Hide files patterns: 
+- 11:00:35.157 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:00:35.172 INFO: Web server url: http://127.0.0.1:50739/
+- 11:00:35.188 INFO: remote_debugging_port = 63393
+- 11:00:35.188 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=63393
+- 11:00:35.360 DEBUG: App::OnContextInitialized()
+- 11:00:35.375 DEBUG: Window max width/height = 1762/1032
+- 11:00:35.375 DEBUG: GetBrowserWindow(): not found, hwnd = 330672
+- 11:00:35.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:00:35.391 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:00:35.391 DEBUG: StoreBrowserWindow(): hwnd = 330672
+- 11:00:35.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=FE47E4E43144223C0B0D8992FEEA0B33 --mojo-platform-channel-handle=1768 /prefetch:2
+- 11:00:35.532 DEBUG: ClientHandler::OnAfterCreated()
+- 11:00:35.532 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:00:35.563 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:00:35.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FCB6C06E0C9A649CA42C56F2274ECAB4 --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FCB6C06E0C9A649CA42C56F2274ECAB4 --renderer-client-id=3 --mojo-platform-channel-handle=2332 /prefetch:1
+[0221/110036.021:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:00:36.094 DEBUG: OnBrowserCreated()
+- 11:00:37.969 INFO: GET 200 /style.css
+- 11:00:37.985 INFO: GET 200 /
+- 11:00:37.344 DEBUG: OnContextCreated()
+- 11:00:37.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50739/
+- 11:09:41.344 DEBUG: WM_DESTROY
+- 11:09:41.344 DEBUG: RemoveBrowserWindow(): hwnd = 330672
+- 11:09:41.344 INFO: Stopping Mongoose web server
+- 11:09:41.344 DEBUG: Mongoose webserver stopped immediately
+- 11:09:41.360 DEBUG: OnBeforeClose() hwnd=854952
+- 11:09:41.360 DEBUG: RemoveBrowserWindow(): hwnd = 854952
+- 11:09:41.360 DEBUG: GetBrowserWindow(): not found, hwnd = 854952
+- 11:09:41.360 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:09:41.360 DEBUG: Calling CefQuitMessageLoop()
+- 11:09:41.422 INFO: Ended application
+- 11:09:41.422 INFO: --------------------------------------------------------
+- 11:11:58.000 INFO: --------------------------------------------------------
+- 11:11:58.000 INFO: Started application
+- 11:11:58.000 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 11:11:58.000 INFO: Log level = DEBUG4
+- 11:11:58.000 INFO: Starting Mongoose 3.9c web server
+- 11:11:58.000 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 11:11:58.000 INFO: Index files: index.html,index.php
+- 11:11:58.000 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 11:11:58.000 INFO: CGI pattern: **.php$
+- 11:11:58.000 INFO: Hide files patterns: 
+- 11:11:58.000 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:11:58.016 INFO: Web server url: http://127.0.0.1:50877/
+- 11:11:58.016 INFO: remote_debugging_port = 62660
+- 11:11:58.016 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=62660
+- 11:11:58.250 DEBUG: App::OnContextInitialized()
+- 11:11:58.250 DEBUG: Window max width/height = 1762/1032
+- 11:11:58.250 DEBUG: GetBrowserWindow(): not found, hwnd = 5245928
+- 11:11:58.250 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:11:58.250 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:11:58.250 DEBUG: StoreBrowserWindow(): hwnd = 5245928
+- 11:11:58.328 DEBUG: ClientHandler::OnAfterCreated()
+- 11:11:58.328 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:11:58.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:11:58.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=498C0A42F6851CE7983A77C9CAA4B4EF --mojo-platform-channel-handle=1696 /prefetch:2
+[0221/111158.776:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:11:58.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4694467A217C07D97B9BAD8546A57403 --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4694467A217C07D97B9BAD8546A57403 --renderer-client-id=3 --mojo-platform-channel-handle=2264 /prefetch:1
+- 11:11:58.047 DEBUG: OnBrowserCreated()
+- 11:12:00.062 DEBUG: OnContextCreated()
+- 11:12:00.766 INFO: GET 200 /
+- 11:12:01.828 INFO: GET 200 /css/local.css
+- 11:12:01.828 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 11:12:01.828 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 11:12:01.907 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 11:12:01.938 INFO: GET 200 /css/sb-admin.css
+- 11:12:01.985 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 11:12:01.985 INFO: GET 200 /login.php
+- 11:12:01.032 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50877/
+- 11:12:01.391 DEBUG: OnContextCreated()
+- 11:12:01.032 INFO: GET 404 /Agenda Local - PNG.png
+- 11:12:01.032 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 11:12:01.047 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 11:12:01.047 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 11:12:01.094 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 11:12:03.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50877/login.php
+- 11:12:09.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50877/login.php
+- 11:12:10.969 INFO: POST 200 /login.php
+- 11:12:10.359 DEBUG: OnContextCreated()
+- 11:12:10.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50877/login.php
+- 11:12:18.891 DEBUG: WM_DESTROY
+- 11:12:18.891 DEBUG: RemoveBrowserWindow(): hwnd = 5245928
+- 11:12:18.891 INFO: Stopping Mongoose web server
+- 11:12:18.891 DEBUG: Mongoose webserver stopped immediately
+- 11:12:18.891 DEBUG: OnBeforeClose() hwnd=526684
+- 11:12:18.891 DEBUG: RemoveBrowserWindow(): hwnd = 526684
+- 11:12:18.891 DEBUG: GetBrowserWindow(): not found, hwnd = 526684
+- 11:12:18.891 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:12:18.891 DEBUG: Calling CefQuitMessageLoop()
+- 11:12:18.110 INFO: Ended application
+- 11:12:18.110 INFO: --------------------------------------------------------
+- 11:12:41.000 INFO: --------------------------------------------------------
+- 11:12:41.000 INFO: Started application
+- 11:12:41.000 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 11:12:41.000 INFO: Log level = DEBUG4
+- 11:12:41.000 INFO: Starting Mongoose 3.9c web server
+- 11:12:41.000 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 11:12:41.000 INFO: Index files: index.html,index.php
+- 11:12:41.000 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 11:12:41.000 INFO: CGI pattern: **.php$
+- 11:12:41.000 INFO: Hide files patterns: 
+- 11:12:41.000 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:12:41.016 INFO: Web server url: http://127.0.0.1:50896/
+- 11:12:41.016 INFO: remote_debugging_port = 53232
+- 11:12:41.016 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=53232
+- 11:12:41.110 DEBUG: App::OnContextInitialized()
+- 11:12:41.110 DEBUG: Window max width/height = 1762/1032
+- 11:12:41.110 DEBUG: GetBrowserWindow(): not found, hwnd = 14944580
+- 11:12:41.110 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:12:41.110 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:12:41.110 DEBUG: StoreBrowserWindow(): hwnd = 14944580
+- 11:12:41.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=82EBD59CF658A7CF2DB216DF40EE3A18 --mojo-platform-channel-handle=1696 /prefetch:2
+- 11:12:41.203 DEBUG: ClientHandler::OnAfterCreated()
+- 11:12:41.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:12:41.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:12:41.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FC83CFAF3F6EAFF5337EBC26A030CD8B --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FC83CFAF3F6EAFF5337EBC26A030CD8B --renderer-client-id=3 --mojo-platform-channel-handle=2264 /prefetch:1
+[0221/111241.533:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:12:41.047 DEBUG: OnBrowserCreated()
+- 11:12:42.735 INFO: GET 200 /
+- 11:12:42.454 DEBUG: OnContextCreated()
+- 11:12:43.750 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 11:12:43.750 INFO: GET 200 /css/local.css
+- 11:12:43.750 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 11:12:43.750 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 11:12:43.750 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 11:12:43.750 INFO: GET 200 /css/sb-admin.css
+- 11:12:43.844 INFO: GET 200 /Agenda Local - PNG.png
+- 11:12:43.922 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50896/
+- 11:12:43.641 DEBUG: OnContextCreated()
+- 11:12:43.922 INFO: GET 200 /login.php
+- 11:12:43.922 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 11:12:43.938 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 11:12:43.938 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 11:12:43.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/login.php
+- 11:12:48.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/login.php
+- 11:12:48.281 INFO: POST 200 /login.php
+- 11:12:48.032 DEBUG: OnContextCreated()
+- 11:12:48.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/login.php
+- 11:13:37.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/login.php
+- 11:13:38.469 DEBUG: OnContextCreated()
+- 11:13:38.766 INFO: POST 200 /login.php
+- 11:13:38.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/login.php
+- 11:13:42.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/login.php
+- 11:13:42.391 DEBUG: OnContextCreated()
+- 11:13:42.672 INFO: POST 200 /login.php
+- 11:13:43.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/login.php
+- 11:15:33.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/login.php
+- 11:15:33.438 DEBUG: OnContextCreated()
+- 11:15:33.719 INFO: POST 200 /login.php
+- 11:15:33.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/login.php
+- 11:16:25.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/login.php
+- 11:16:25.266 INFO: POST 302 /login.php
+- 11:16:25.266 DEBUG: OnContextCreated()
+- 11:16:25.547 INFO: GET 200 /index.php
+- 11:16:25.688 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 11:16:25.688 INFO: GET 200 /js/demo/datatables-demo.js
+- 11:16:26.766 INFO: GET 200 /js/demo/chart-area-demo.js
+- 11:16:26.766 INFO: GET 200 /js/sb-admin.min.js
+- 11:16:26.891 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+- 11:16:26.953 INFO: GET 200 /vendor/chart.js/Chart.min.js
+- 11:16:26.969 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+[0221/111627.477:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:50896/vendor/chart.js/Chart.min.js (10)
+- 11:16:27.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/index.php
+- 11:16:29.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/index.php
+- 11:16:30.547 DEBUG: OnContextCreated()
+- 11:16:30.969 INFO: GET 200 /cidades.php
+- 11:16:30.141 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 11:16:30.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/cidades.php
+- 11:16:32.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/cidades.php
+- 11:16:33.579 DEBUG: OnContextCreated()
+- 11:16:33.969 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 11:16:33.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/registros.php?city_id=1&state_initials=PR
+- 11:17:08.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/registros.php?city_id=1&state_initials=PR
+- 11:17:08.875 DEBUG: OnContextCreated()
+- 11:17:08.610 INFO: POST 200 /registros.php?city_id=1&state_initials=PR
+- 11:17:09.469 DEBUG: OnContextCreated()
+- 11:17:09.766 INFO: GET 200 /registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 11:17:09.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 11:17:10.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 11:17:11.610 DEBUG: OnContextCreated()
+- 11:17:11.906 INFO: POST 200 /registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 11:17:11.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 11:17:11.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50896/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 11:17:11.829 DEBUG: OnContextCreated()
+- 11:17:11.125 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 11:17:11.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50896/registros.php?city_id=1&state_initials=PR
+- 11:27:41.938 DEBUG: WM_DESTROY
+- 11:27:41.953 DEBUG: RemoveBrowserWindow(): hwnd = 14944580
+- 11:27:41.953 INFO: Stopping Mongoose web server
+- 11:27:41.953 DEBUG: Mongoose webserver stopped immediately
+- 11:27:41.969 DEBUG: OnBeforeClose() hwnd=4459410
+- 11:27:41.969 DEBUG: RemoveBrowserWindow(): hwnd = 4459410
+- 11:27:41.969 DEBUG: GetBrowserWindow(): not found, hwnd = 4459410
+- 11:27:41.969 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:27:41.969 DEBUG: Calling CefQuitMessageLoop()
+- 11:27:41.329 DEBUG: OnBrowserDestroyed()
+- 11:27:43.313 INFO: Ended application
+- 11:27:43.313 INFO: --------------------------------------------------------
+- 13:22:31.016 INFO: --------------------------------------------------------
+- 13:22:31.016 INFO: Started application
+- 13:22:31.016 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 13:22:31.016 INFO: Log level = DEBUG4
+- 13:22:31.016 INFO: Starting Mongoose 3.9c web server
+- 13:22:31.016 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 13:22:31.016 INFO: Index files: index.html,index.php
+- 13:22:31.016 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 13:22:31.016 INFO: CGI pattern: **.php$
+- 13:22:31.016 INFO: Hide files patterns: 
+- 13:22:31.016 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:22:31.031 INFO: Web server url: http://127.0.0.1:51523/
+- 13:22:31.031 INFO: remote_debugging_port = 61687
+- 13:22:31.031 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=61687
+- 13:22:34.313 DEBUG: App::OnContextInitialized()
+- 13:22:34.313 DEBUG: Window max width/height = 1762/1032
+- 13:22:34.328 DEBUG: GetBrowserWindow(): not found, hwnd = 12585712
+- 13:22:34.328 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:22:34.328 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:22:34.328 DEBUG: StoreBrowserWindow(): hwnd = 12585712
+- 13:22:34.485 DEBUG: ClientHandler::OnAfterCreated()
+- 13:22:34.485 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:22:35.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:22:36.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B9A14E6B23817A035C5B4F16ADAF2CAB --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B9A14E6B23817A035C5B4F16ADAF2CAB --renderer-client-id=3 --mojo-platform-channel-handle=2280 /prefetch:1
+- 13:22:36.109 DEBUG: OnBrowserCreated()
+- 13:22:37.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=32AAD1C9D6C32EBDBF924AA076B45E6B --mojo-platform-channel-handle=1708 /prefetch:2
+[0221/132238.799:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:22:44.266 INFO: GET 200 /
+- 13:22:44.296 DEBUG: OnContextCreated()
+- 13:22:44.313 INFO: GET 200 /css/local.css
+- 13:22:44.328 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 13:22:44.344 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 13:22:44.360 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 13:22:44.422 INFO: GET 200 /css/sb-admin.css
+- 13:22:45.516 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 13:22:45.578 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:51523/
+- 13:22:45.609 DEBUG: OnContextCreated()
+- 13:22:45.594 INFO: GET 200 /login.php
+- 13:22:45.610 INFO: GET 200 /Agenda Local - PNG.png
+- 13:22:45.672 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 13:22:45.781 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 13:22:45.797 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 13:22:45.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51523/login.php
+- 13:23:02.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51523/login.php
+- 13:23:02.156 INFO: POST 302 /login.php
+- 13:23:02.406 DEBUG: OnContextCreated()
+- 13:23:02.391 INFO: GET 200 /index.php
+- 13:23:02.422 INFO: GET 200 /js/demo/datatables-demo.js
+- 13:23:02.438 INFO: GET 200 /js/sb-admin.min.js
+- 13:23:02.453 INFO: GET 200 /js/demo/chart-area-demo.js
+- 13:23:02.453 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 13:23:03.594 INFO: GET 200 /vendor/chart.js/Chart.min.js
+- 13:23:03.781 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+- 13:23:03.906 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[0221/132304.638:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:51523/vendor/chart.js/Chart.min.js (10)
+- 13:23:04.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51523/index.php
+- 13:23:07.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51523/index.php
+- 13:23:08.875 DEBUG: OnContextCreated()
+- 13:23:08.875 INFO: GET 200 /usuariospainel.php
+- 13:23:08.156 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 13:23:09.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51523/usuariospainel.php
+- 13:23:10.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51523/usuariospainel.php
+- 13:23:11.703 DEBUG: OnContextCreated()
+- 13:23:11.719 INFO: GET 200 /cidades.php
+- 13:23:11.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51523/cidades.php
+- 13:23:14.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51523/cidades.php
+- 13:23:15.203 DEBUG: OnContextCreated()
+- 13:23:15.203 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 13:23:16.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51523/registros.php?city_id=1&state_initials=PR
+- 13:30:39.563 DEBUG: WM_DESTROY
+- 13:30:39.563 DEBUG: RemoveBrowserWindow(): hwnd = 12585712
+- 13:30:39.563 INFO: Stopping Mongoose web server
+- 13:30:39.563 DEBUG: Mongoose webserver stopped immediately
+- 13:30:39.688 DEBUG: OnBeforeClose() hwnd=3542200
+- 13:30:39.688 DEBUG: RemoveBrowserWindow(): hwnd = 3542200
+- 13:30:39.688 DEBUG: GetBrowserWindow(): not found, hwnd = 3542200
+- 13:30:39.688 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:30:39.688 DEBUG: Calling CefQuitMessageLoop()
+- 13:30:39.156 DEBUG: OnBrowserDestroyed()
+- 13:30:40.000 INFO: Ended application
+- 13:30:40.000 INFO: --------------------------------------------------------
+- 07:53:37.016 INFO: --------------------------------------------------------
+- 07:53:37.047 INFO: Started application
+- 07:53:37.047 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 07:53:37.047 INFO: Log level = DEBUG4
+- 07:53:37.047 INFO: Starting Mongoose 3.9c web server
+- 07:53:37.047 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 07:53:37.047 INFO: Index files: index.html,index.php
+- 07:53:37.047 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 07:53:37.047 INFO: CGI pattern: **.php$
+- 07:53:37.047 INFO: Hide files patterns: 
+- 07:53:37.047 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 07:53:37.078 INFO: Web server url: http://127.0.0.1:49758/
+- 07:53:37.078 INFO: remote_debugging_port = 52307
+- 07:53:37.078 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=52307
+[0222/075340.848:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:53:40.250 DEBUG: App::OnContextInitialized()
+- 07:53:40.250 DEBUG: Window max width/height = 1762/1032
+- 07:53:40.266 DEBUG: GetBrowserWindow(): not found, hwnd = 590870
+- 07:53:40.266 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:53:40.266 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:53:40.266 DEBUG: StoreBrowserWindow(): hwnd = 590870
+- 07:53:40.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=B99050835FAE6C670BFA44191DDB8828 --mojo-platform-channel-handle=1724 /prefetch:2
+- 07:53:40.344 DEBUG: ClientHandler::OnAfterCreated()
+- 07:53:40.344 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:53:40.359 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:53:41.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C35E64F9AB308B88E1038B9A4B7EA3C7 --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C35E64F9AB308B88E1038B9A4B7EA3C7 --renderer-client-id=3 --mojo-platform-channel-handle=2300 /prefetch:1
+- 07:53:41.047 DEBUG: OnBrowserCreated()
+[0222/075343.386:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 07:53:45.578 INFO: GET 200 /
+- 07:53:45.375 DEBUG: OnContextCreated()
+- 07:53:45.875 INFO: GET 200 /css/local.css
+- 07:53:45.875 INFO: GET 200 /css/sb-admin.css
+- 07:53:45.875 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 07:53:45.891 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 07:53:45.891 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 07:53:45.906 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 07:53:45.047 INFO: GET 200 /Agenda Local - PNG.png
+[0222/075345.862:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:53:45.297 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:49758/
+- 07:53:45.875 DEBUG: OnContextCreated()
+- 07:53:45.313 INFO: GET 200 /login.php
+- 07:53:46.422 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 07:53:46.484 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 07:53:46.500 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 07:53:47.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/login.php
+[0222/075350.871:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075355.878:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075400.894:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075405.910:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075410.925:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:54:13.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/login.php
+- 07:54:14.766 DEBUG: OnContextCreated()
+- 07:54:14.188 INFO: POST 200 /login.php
+- 07:54:14.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/login.php
+[0222/075415.944:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:54:19.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/login.php
+- 07:54:19.219 INFO: POST 302 /login.php
+- 07:54:20.453 INFO: GET 200 /index.php
+- 07:54:20.062 DEBUG: OnContextCreated()
+- 07:54:20.594 INFO: GET 200 /js/sb-admin.min.js
+- 07:54:20.625 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 07:54:20.641 INFO: GET 200 /js/demo/datatables-demo.js
+- 07:54:20.641 INFO: GET 200 /js/demo/chart-area-demo.js
+- 07:54:20.672 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+- 07:54:20.703 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+- 07:54:20.859 INFO: GET 200 /vendor/chart.js/Chart.min.js
+[0222/075420.949:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075421.466:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:49758/vendor/chart.js/Chart.min.js (10)
+- 07:54:21.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/index.php
+- 07:54:22.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/index.php
+- 07:54:23.469 DEBUG: OnContextCreated()
+- 07:54:23.922 INFO: GET 200 /cidades.php
+- 07:54:23.063 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 07:54:24.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/cidades.php
+[0222/075425.962:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:54:29.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/cidades.php
+- 07:54:30.062 DEBUG: OnContextCreated()
+- 07:54:30.516 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 07:54:30.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+[0222/075430.977:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075435.992:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075441.011:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075446.021:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075451.033:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:54:54.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+[0222/075456.052:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:54:58.156 DEBUG: OnContextCreated()
+- 07:54:58.625 INFO: POST 200 /registros.php?city_id=1&state_initials=PR
+- 07:54:58.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+- 07:54:58.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+- 07:54:59.031 DEBUG: OnContextCreated()
+- 07:54:59.453 INFO: GET 200 /registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 07:55:00.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+[0222/075501.060:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:55:03.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 07:55:04.406 DEBUG: OnContextCreated()
+- 07:55:04.844 INFO: POST 200 /registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 07:55:05.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 07:55:05.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 07:55:05.266 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 07:55:05.859 DEBUG: OnContextCreated()
+[0222/075506.071:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:55:07.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+[0222/075511.086:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075516.103:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075521.118:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075526.136:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075531.151:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075536.165:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075541.184:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075546.196:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075551.219:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075556.233:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075601.247:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075606.255:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075611.265:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075616.280:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075621.285:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075626.302:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075631.319:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075636.330:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075641.346:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075646.359:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075651.369:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075656.380:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075701.394:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075706.410:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075711.428:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075716.446:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075721.469:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075726.479:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075731.497:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075736.520:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075741.538:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075746.562:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075751.585:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075756.605:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075801.630:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075806.986:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075812.577:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075817.602:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075822.624:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075827.638:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075832.660:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075837.679:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075842.702:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075847.723:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075852.743:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075857.762:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075902.778:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075907.797:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075912.815:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075917.838:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075922.861:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075927.880:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075932.898:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075937.915:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075942.935:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075947.953:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075952.970:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/075957.985:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080003.003:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080008.013:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080013.034:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080018.061:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080023.084:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080028.105:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080033.126:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080038.145:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080043.172:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080048.190:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080053.210:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080058.233:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080103.260:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080108.270:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080113.286:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080118.292:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080123.305:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080128.329:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080133.345:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080138.366:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080143.387:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080148.411:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080153.432:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080158.448:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080203.466:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080208.487:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080213.509:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080218.531:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080223.551:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080228.560:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080233.574:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080238.590:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080243.613:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080248.631:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080253.653:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080258.656:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080303.671:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080308.686:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080313.697:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080318.709:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080323.719:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080328.740:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080333.761:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080338.777:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080343.786:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080348.794:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080353.815:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080358.830:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080403.842:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080408.853:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080413.871:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080418.892:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080423.903:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080428.915:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080433.929:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080438.947:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080443.965:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080448.986:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080454.004:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080459.013:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080504.021:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080509.041:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080514.049:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080519.068:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080524.088:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080529.102:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080534.111:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080539.130:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080544.150:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080549.161:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080554.182:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080559.192:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080604.212:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080609.232:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080614.257:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080619.265:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080624.276:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080629.285:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080634.305:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080639.321:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080644.334:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080649.348:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080654.355:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080659.361:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080704.380:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080709.392:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080714.405:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080719.424:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080724.441:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080729.458:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080734.469:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080739.476:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080744.494:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080749.512:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080754.524:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080759.543:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080804.569:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080809.592:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080814.607:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080819.611:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080824.628:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080829.640:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080834.654:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080839.664:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080844.671:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080849.681:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080854.692:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080859.700:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080904.711:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080909.722:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080914.733:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080919.740:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080924.752:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080929.761:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080934.771:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080939.782:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080944.793:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080949.803:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080954.812:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/080959.827:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081004.839:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081009.850:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081014.857:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081019.867:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081024.879:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081029.892:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081034.903:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081039.915:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081044.924:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081049.930:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081054.936:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081059.948:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081104.957:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081109.969:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081114.979:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081119.993:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081125.002:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081130.015:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081135.024:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081140.032:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081145.039:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081150.049:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081155.061:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081200.066:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081205.079:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081210.089:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081215.100:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081220.112:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081225.120:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081230.132:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081235.139:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081240.147:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081245.159:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081250.168:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081255.177:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081300.191:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081305.205:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081310.216:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081315.228:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081320.239:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081325.251:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081330.261:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081335.273:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081340.283:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081345.293:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081350.307:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081355.319:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081400.334:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081405.346:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081410.355:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081415.363:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081420.369:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081425.377:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081430.386:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081435.396:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081440.407:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081445.419:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081450.428:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081455.441:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081500.453:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081505.461:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081510.472:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081515.479:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081520.487:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081525.498:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081530.510:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081535.520:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081540.531:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081545.544:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081550.555:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081555.566:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081600.581:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081605.593:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081610.608:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081615.619:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081620.633:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081625.645:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081630.654:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081635.663:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081640.672:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081645.684:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081650.696:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081655.704:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081700.714:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081705.727:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081710.738:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081715.747:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081720.757:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081725.768:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081730.778:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081735.792:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081740.798:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081745.819:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081750.842:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081755.850:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081800.867:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081805.874:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081810.882:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081815.914:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081820.920:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081825.955:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081830.987:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081836.025:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081841.032:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081846.061:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081851.074:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081856.100:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081901.116:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081906.126:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081911.147:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081916.170:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081921.192:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081926.196:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081931.211:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081936.221:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081941.232:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081946.242:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081951.263:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/081956.286:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082001.303:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082006.321:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082011.342:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082016.360:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082021.367:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082026.380:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082031.396:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082036.402:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082041.414:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082046.426:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082051.444:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082056.451:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082101.468:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082106.480:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082111.491:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082116.504:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082121.524:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082126.538:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082131.556:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082136.575:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082141.588:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082146.605:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082151.623:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082156.643:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082201.664:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082206.687:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082211.692:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082216.705:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082221.723:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082226.743:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082231.756:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082236.777:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082241.786:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082246.806:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082251.819:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082256.842:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082301.857:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082306.879:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082311.896:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082316.916:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082321.927:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082326.946:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082331.963:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082336.974:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082341.985:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082347.002:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082352.025:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082357.041:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082402.050:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082407.076:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082412.090:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082417.109:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082422.131:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082427.158:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082432.168:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082437.183:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082442.211:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082447.214:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082452.243:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082457.256:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082502.273:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082507.296:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082512.312:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082517.326:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082522.359:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082527.365:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082532.378:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082537.396:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082542.419:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082547.428:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082552.462:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082557.484:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082602.498:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082607.529:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082612.538:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082617.566:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082622.581:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082627.598:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082632.621:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082637.652:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082642.660:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082647.672:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082652.692:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082657.719:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082702.731:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082707.738:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082712.751:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082717.776:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082722.807:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082727.834:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082732.843:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082737.856:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082742.865:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082747.903:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082752.908:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082757.927:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082802.948:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082807.956:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082812.980:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082817.991:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082823.005:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082828.025:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082833.044:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082838.063:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082843.074:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082848.087:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082853.108:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082858.112:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082903.136:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082908.152:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082913.161:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082918.170:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082923.182:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082928.214:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082933.224:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082938.235:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082943.246:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082948.258:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082953.282:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/082958.300:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083003.319:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083008.338:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083013.352:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083018.362:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083023.397:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083028.410:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083033.429:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083038.441:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083043.469:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083048.483:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083053.497:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083058.523:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083103.534:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083108.548:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083113.557:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083118.568:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083123.583:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083128.608:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083133.642:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083138.657:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083143.681:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083148.704:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083153.711:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083158.737:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083203.745:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083208.752:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083213.763:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083218.784:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083223.804:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083228.816:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083233.827:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083238.840:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083243.849:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083248.862:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083253.874:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083258.888:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083303.897:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083308.926:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083313.959:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083318.999:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083324.004:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083329.024:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083334.056:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083339.073:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083344.080:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083349.110:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083354.131:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083359.143:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083404.159:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083409.165:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083414.178:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083419.188:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083424.201:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083429.238:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083434.276:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083439.289:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083444.321:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083449.344:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083454.356:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083459.372:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083504.392:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083509.411:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083514.426:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083519.438:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083524.450:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083529.470:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083534.482:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083539.499:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083544.516:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083549.534:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083554.561:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083559.591:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083604.604:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083609.624:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083614.642:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083619.654:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083624.666:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083629.683:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083634.716:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083639.735:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083644.763:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083649.780:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083654.795:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083659.818:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083704.837:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083709.862:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083714.885:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083719.895:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083724.918:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083729.940:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083734.964:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083739.976:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083744.994:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083750.014:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083755.031:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083800.052:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083805.061:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083810.086:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083815.112:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083820.126:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083825.143:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083830.159:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083835.179:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083840.193:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083845.208:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083850.225:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083855.237:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083900.308:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083905.365:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083910.378:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083915.498:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083920.525:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083925.586:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083930.602:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083935.612:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083940.622:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083945.643:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083950.664:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/083955.677:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084000.698:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084005.716:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084010.729:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084015.767:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084020.786:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084025.792:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084030.807:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084035.820:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084040.839:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084045.860:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084050.871:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084055.883:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084100.894:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084105.912:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084110.921:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084115.947:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084120.949:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084125.971:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084130.985:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084136.014:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084141.021:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084146.036:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084151.045:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084156.059:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084201.070:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084206.085:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084211.108:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084216.120:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084221.130:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084226.141:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084231.172:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084236.183:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084241.192:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084246.217:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084251.227:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084256.257:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084301.289:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084306.298:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084311.315:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084316.335:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084321.341:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084326.355:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084331.369:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084336.391:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084341.402:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084346.420:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084351.443:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084356.454:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084401.468:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084406.479:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084411.493:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084416.519:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084421.556:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084426.569:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084431.581:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084436.592:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084441.607:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084446.619:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084451.633:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084456.645:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084501.661:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084506.670:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084511.680:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084516.796:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084521.906:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084526.917:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084531.926:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084536.938:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084541.965:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084546.981:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084551.994:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084557.013:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084602.033:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084607.053:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084612.069:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084617.083:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084622.103:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084627.121:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084632.141:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084637.163:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084642.192:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084647.218:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084652.231:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084657.242:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084702.261:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084707.281:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084712.291:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084717.308:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084722.318:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084727.342:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084732.357:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084737.363:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084742.385:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084747.408:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084752.424:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084757.452:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084802.466:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084807.472:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084812.482:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084817.491:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084822.506:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084827.510:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084832.531:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084837.549:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084842.569:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084847.593:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084852.614:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084857.624:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084902.636:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084907.648:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084912.671:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084917.698:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084922.722:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084927.745:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084932.761:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084937.768:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084942.801:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084947.824:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084952.851:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/084957.885:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085002.898:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085007.920:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085012.932:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085017.948:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085022.964:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085027.985:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085033.003:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085038.024:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085043.036:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085048.054:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085053.072:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085058.086:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085103.109:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085108.135:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085113.142:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085118.166:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085123.202:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085128.214:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085133.220:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085138.245:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085143.259:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085148.272:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085153.284:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085158.298:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085203.320:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085208.345:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085213.356:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085218.362:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085223.381:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085228.400:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085233.411:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085238.427:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085243.452:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085248.465:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085253.491:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085258.502:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085303.517:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085308.526:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085313.542:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085318.572:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085323.580:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085328.590:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085333.603:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085338.613:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085343.625:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085348.653:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085353.667:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085358.686:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085403.691:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085408.701:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085413.714:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085418.748:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085423.777:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085428.801:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085433.832:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085438.847:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085443.884:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085448.904:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085453.922:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085458.936:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085503.956:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085508.965:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085513.986:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085518.997:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085524.016:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085529.039:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085534.050:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085539.061:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085544.082:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085549.087:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085554.107:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085559.130:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085604.142:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085609.151:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085614.167:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085619.183:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085624.190:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085629.207:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085634.224:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085639.249:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085644.263:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085649.274:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085654.286:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085659.298:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085704.310:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085709.325:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085714.332:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085719.346:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085724.367:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085729.390:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085734.418:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085739.438:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085744.453:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085749.466:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085754.482:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085759.500:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085804.513:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085809.533:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085814.541:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085819.556:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085824.567:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085829.585:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085834.603:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085839.615:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085840.864:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085841.043:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085929.850:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085934.880:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085939.903:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085941.204:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085944.914:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085946.218:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085949.923:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085951.233:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085954.933:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085956.260:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/085959.944:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/090001.277:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/090004.959:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/090006.287:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0222/090009.965:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 09:20:44.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+- 09:20:44.953 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:49758/cidades.php
+- 09:20:44.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+- 09:20:44.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+- 09:20:45.016 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:49758/cidades.php
+- 09:20:45.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+- 09:20:45.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+- 09:20:47.609 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:49758/cidades.php
+- 09:20:47.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+- 09:20:47.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/registros.php?city_id=1&state_initials=PR
+- 09:20:48.266 INFO: GET 200 /anuncios.php
+- 09:20:49.219 INFO: GET 200 /cidades.php
+- 09:20:49.219 INFO: GET 200 /cidades.php
+- 09:20:50.047 DEBUG: OnContextCreated()
+- 09:20:52.250 DEBUG: OnContextCreated()
+- 09:20:52.688 INFO: GET 200 /pagamentos.php
+- 09:20:52.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/pagamentos.php
+[0222/092052.720:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:49758/vendor/jquery/jquery.min.js (2)
+[0222/092052.725:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:49758/vendor/jquery/jquery.min.js (2)
+- 09:21:54.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/pagamentos.php
+- 09:21:55.312 DEBUG: OnContextCreated()
+- 09:21:55.734 INFO: GET 200 /register.php?return=pagamentos
+- 09:21:55.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49758/register.php?return=pagamentos
+- 09:21:57.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49758/register.php?return=pagamentos
+- 09:21:59.922 DEBUG: OnContextCreated()
+- 09:21:59.344 DEBUG: OnLoadError, errorCode=-102, failedUrl=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 09:21:59.344 ERROR: Failed to load URL: http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 09:21:59.359 DEBUG: OnLoadingStateChange: loading=0, url=data:text/html,chromewebdata
+- 09:21:59.937 DEBUG: OnContextCreated()
+- 09:22:00.531 DEBUG: OnLoadingStateChange: loading=1, url=data:text/html,chromewebdata
+- 09:22:00.891 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 09:22:02.016 DEBUG: WM_DESTROY
+- 09:22:02.016 DEBUG: RemoveBrowserWindow(): hwnd = 590870
+- 09:22:02.016 INFO: Stopping Mongoose web server
+- 09:22:02.016 DEBUG: Mongoose webserver stopped immediately
+- 09:22:02.141 DEBUG: OnBeforeClose() hwnd=525368
+- 09:22:02.141 DEBUG: RemoveBrowserWindow(): hwnd = 525368
+- 09:22:02.141 DEBUG: GetBrowserWindow(): not found, hwnd = 525368
+- 09:22:02.141 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:22:02.141 DEBUG: Calling CefQuitMessageLoop()
+- 09:22:03.734 DEBUG: OnBrowserDestroyed()
+- 09:22:05.813 INFO: Ended application
+- 09:22:05.813 INFO: --------------------------------------------------------
+- 09:24:35.016 INFO: --------------------------------------------------------
+- 09:24:35.016 INFO: Started application
+- 09:24:35.016 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 09:24:35.016 INFO: Log level = DEBUG4
+- 09:24:35.016 INFO: Starting Mongoose 3.9c web server
+- 09:24:35.016 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 09:24:35.016 INFO: Index files: index.html,index.php
+- 09:24:35.016 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 09:24:35.016 INFO: CGI pattern: **.php$
+- 09:24:35.016 INFO: Hide files patterns: 
+- 09:24:35.016 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:24:35.031 INFO: Web server url: http://127.0.0.1:50104/
+- 09:24:35.031 INFO: remote_debugging_port = 59217
+- 09:24:35.031 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=59217
+- 09:24:38.156 DEBUG: App::OnContextInitialized()
+- 09:24:38.156 DEBUG: Window max width/height = 1762/1032
+- 09:24:38.156 DEBUG: GetBrowserWindow(): not found, hwnd = 1180538
+- 09:24:38.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:24:38.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:24:38.156 DEBUG: StoreBrowserWindow(): hwnd = 1180538
+- 09:24:38.375 DEBUG: ClientHandler::OnAfterCreated()
+- 09:24:38.375 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:24:38.500 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:24:39.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3310DDBD882185E449C2C946440A91B4 --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3310DDBD882185E449C2C946440A91B4 --renderer-client-id=3 --mojo-platform-channel-handle=2252 /prefetch:1
+- 09:24:39.125 DEBUG: OnBrowserCreated()
+- 09:24:39.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=49D65D65A458575215E8E64E8A98013F --mojo-platform-channel-handle=1692 /prefetch:2
+[0222/092440.683:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:24:42.735 INFO: GET 200 /
+- 09:24:42.844 DEBUG: OnContextCreated()
+- 09:24:42.094 INFO: GET 200 /css/local.css
+- 09:24:42.110 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 09:24:42.110 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 09:24:42.125 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 09:24:42.125 INFO: GET 200 /css/sb-admin.css
+- 09:24:42.281 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 09:24:42.438 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50104/
+- 09:24:42.266 DEBUG: OnContextCreated()
+- 09:24:42.438 INFO: GET 200 /login.php
+- 09:24:42.469 INFO: GET 200 /Agenda Local - PNG.png
+- 09:24:42.485 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 09:24:42.485 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 09:24:42.516 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 09:24:42.656 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 09:24:44.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50104/login.php
+- 09:24:49.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50104/login.php
+- 09:24:49.531 INFO: POST 302 /login.php
+- 09:24:50.641 DEBUG: OnContextCreated()
+- 09:24:50.828 INFO: GET 200 /index.php
+- 09:24:50.891 INFO: GET 200 /js/demo/datatables-demo.js
+- 09:24:50.906 INFO: GET 200 /js/sb-admin.min.js
+- 09:24:50.906 INFO: GET 200 /js/demo/chart-area-demo.js
+- 09:24:50.922 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 09:24:50.953 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+- 09:24:50.156 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+- 09:24:50.235 INFO: GET 200 /vendor/chart.js/Chart.min.js
+[0222/092452.044:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:50104/vendor/chart.js/Chart.min.js (10)
+- 09:24:52.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50104/index.php
+- 09:24:55.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50104/index.php
+- 09:24:55.078 DEBUG: OnContextCreated()
+- 09:24:55.266 INFO: GET 200 /cidades.php
+- 09:24:55.406 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 09:24:56.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50104/cidades.php
+- 09:24:57.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50104/cidades.php
+- 09:24:58.234 DEBUG: OnContextCreated()
+- 09:24:58.453 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 09:25:00.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50104/registros.php?city_id=1&state_initials=PR
+- 09:28:50.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50104/registros.php?city_id=1&state_initials=PR
+- 09:28:50.031 DEBUG: OnContextCreated()
+- 09:28:50.235 INFO: GET 200 /cidades.php
+- 09:28:50.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50104/cidades.php
+- 09:28:51.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50104/cidades.php
+- 09:28:52.672 DEBUG: OnContextCreated()
+- 09:28:52.844 INFO: GET 200 /pagamentos.php
+- 09:28:52.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50104/pagamentos.php
+[0222/092852.257:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:50104/vendor/jquery/jquery.min.js (2)
+[0222/092852.264:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:50104/vendor/jquery/jquery.min.js (2)
+- 09:28:53.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50104/pagamentos.php
+- 09:28:53.063 DEBUG: OnContextCreated()
+- 09:28:53.235 INFO: GET 200 /register.php?return=pagamentos
+- 09:28:53.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50104/register.php?return=pagamentos
+- 09:29:10.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50104/register.php?return=pagamentos
+- 09:29:12.609 DEBUG: OnContextCreated()
+- 09:29:12.781 DEBUG: OnLoadError, errorCode=-102, failedUrl=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 09:29:12.781 ERROR: Failed to load URL: http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 09:29:12.797 DEBUG: OnLoadingStateChange: loading=0, url=data:text/html,chromewebdata
+- 09:29:12.797 DEBUG: OnLoadingStateChange: loading=1, url=data:text/html,chromewebdata
+- 09:29:12.625 DEBUG: OnContextCreated()
+- 09:29:12.813 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 09:29:15.938 DEBUG: WM_DESTROY
+- 09:29:15.938 DEBUG: RemoveBrowserWindow(): hwnd = 1180538
+- 09:29:15.938 INFO: Stopping Mongoose web server
+- 09:29:15.938 DEBUG: Mongoose webserver stopped immediately
+- 09:29:15.063 DEBUG: OnBeforeClose() hwnd=394422
+- 09:29:15.063 DEBUG: RemoveBrowserWindow(): hwnd = 394422
+- 09:29:15.063 DEBUG: GetBrowserWindow(): not found, hwnd = 394422
+- 09:29:15.063 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:29:15.063 DEBUG: Calling CefQuitMessageLoop()
+- 09:29:15.906 DEBUG: OnBrowserDestroyed()
+- 09:29:15.203 INFO: Ended application
+- 09:29:15.203 INFO: --------------------------------------------------------
+- 09:37:27.000 INFO: --------------------------------------------------------
+- 09:37:27.000 INFO: Started application
+- 09:37:27.000 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 09:37:27.000 INFO: Log level = DEBUG4
+- 09:37:27.000 INFO: Starting Mongoose 3.9c web server
+- 09:37:27.000 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 09:37:27.000 INFO: Index files: index.html,index.php
+- 09:37:27.000 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 09:37:27.000 INFO: CGI pattern: **.php$
+- 09:37:27.000 INFO: Hide files patterns: 
+- 09:37:27.000 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:37:27.015 INFO: Web server url: http://127.0.0.1:50183/
+- 09:37:27.015 INFO: remote_debugging_port = 54019
+- 09:37:27.015 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=54019
+- 09:37:27.062 DEBUG: App::OnContextInitialized()
+- 09:37:27.062 DEBUG: Window max width/height = 1762/1032
+- 09:37:27.062 DEBUG: GetBrowserWindow(): not found, hwnd = 1246314
+- 09:37:27.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:37:27.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:37:27.062 DEBUG: StoreBrowserWindow(): hwnd = 1246314
+- 09:37:27.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=F7F60869C7A92D07EE2DCF6E7C9A80AD --mojo-platform-channel-handle=1712 /prefetch:2
+- 09:37:27.125 DEBUG: ClientHandler::OnAfterCreated()
+- 09:37:27.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:37:27.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:37:27.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=BF241DDC11759831BB22847B98F5E15C --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BF241DDC11759831BB22847B98F5E15C --renderer-client-id=3 --mojo-platform-channel-handle=2248 /prefetch:1
+- 09:37:27.063 DEBUG: OnBrowserCreated()
+[0222/093727.770:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:37:29.656 INFO: GET 200 /
+- 09:37:29.469 DEBUG: OnContextCreated()
+- 09:37:29.672 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 09:37:29.672 INFO: GET 200 /css/local.css
+- 09:37:29.672 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 09:37:29.672 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 09:37:29.672 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 09:37:29.672 INFO: GET 200 /css/sb-admin.css
+- 09:37:29.750 INFO: GET 200 /Agenda Local - PNG.png
+- 09:37:29.890 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50183/
+- 09:37:29.703 DEBUG: OnContextCreated()
+- 09:37:29.906 INFO: GET 200 /login.php
+- 09:37:29.906 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 09:37:29.922 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 09:37:29.922 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 09:37:30.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50183/login.php
+- 09:37:34.812 DEBUG: WM_DESTROY
+- 09:37:34.812 DEBUG: RemoveBrowserWindow(): hwnd = 1246314
+- 09:37:34.812 INFO: Stopping Mongoose web server
+- 09:37:34.812 DEBUG: Mongoose webserver stopped immediately
+- 09:37:34.812 DEBUG: OnBeforeClose() hwnd=197900
+- 09:37:34.812 DEBUG: RemoveBrowserWindow(): hwnd = 197900
+- 09:37:34.812 DEBUG: GetBrowserWindow(): not found, hwnd = 197900
+- 09:37:34.812 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:37:34.812 DEBUG: Calling CefQuitMessageLoop()
+- 09:37:34.968 INFO: Ended application
+- 09:37:34.968 INFO: --------------------------------------------------------
+- 09:37:53.000 INFO: --------------------------------------------------------
+- 09:37:53.000 INFO: Started application
+- 09:37:53.000 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 09:37:53.000 INFO: Log level = DEBUG4
+- 09:37:53.000 INFO: Starting Mongoose 3.9c web server
+- 09:37:53.000 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 09:37:53.000 INFO: Index files: index.html,index.php
+- 09:37:53.000 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 09:37:53.000 INFO: CGI pattern: **.php$
+- 09:37:53.000 INFO: Hide files patterns: 
+- 09:37:53.000 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:37:53.000 INFO: Web server url: http://127.0.0.1:50198/
+- 09:37:53.000 INFO: remote_debugging_port = 58773
+- 09:37:53.000 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=58773
+- 09:37:53.047 DEBUG: App::OnContextInitialized()
+- 09:37:53.047 DEBUG: Window max width/height = 1762/1032
+- 09:37:53.047 DEBUG: GetBrowserWindow(): not found, hwnd = 66984
+- 09:37:53.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:37:53.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:37:53.063 DEBUG: StoreBrowserWindow(): hwnd = 66984
+- 09:37:53.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=11F9799981618BB84A228C0567436731 --mojo-platform-channel-handle=1188 /prefetch:2
+- 09:37:53.125 DEBUG: ClientHandler::OnAfterCreated()
+- 09:37:53.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:37:53.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:37:53.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A0C4DF7ED81F8CEBE54D4B80F1CC03B1 --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A0C4DF7ED81F8CEBE54D4B80F1CC03B1 --renderer-client-id=3 --mojo-platform-channel-handle=2236 /prefetch:1
+- 09:37:53.047 DEBUG: OnBrowserCreated()
+[0222/093753.679:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:37:55.610 INFO: GET 200 /
+- 09:37:55.437 DEBUG: OnContextCreated()
+- 09:37:55.625 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 09:37:55.641 INFO: GET 200 /css/local.css
+- 09:37:55.641 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 09:37:55.641 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 09:37:55.641 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 09:37:55.641 INFO: GET 200 /css/sb-admin.css
+- 09:37:55.797 INFO: GET 200 /Agenda Local - PNG.png
+- 09:37:55.860 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50198/
+- 09:37:55.687 DEBUG: OnContextCreated()
+- 09:37:55.875 INFO: GET 200 /login.php
+- 09:37:55.922 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 09:37:55.922 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 09:37:55.922 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 09:37:55.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50198/login.php
+- 09:38:00.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50198/login.php
+- 09:38:00.969 INFO: POST 302 /login.php
+- 09:38:00.000 DEBUG: OnContextCreated()
+- 09:38:00.188 INFO: GET 200 /index.php
+- 09:38:00.219 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 09:38:00.219 INFO: GET 200 /js/sb-admin.min.js
+- 09:38:00.219 INFO: GET 200 /js/demo/datatables-demo.js
+- 09:38:00.219 INFO: GET 200 /js/demo/chart-area-demo.js
+- 09:38:00.219 INFO: GET 200 /vendor/chart.js/Chart.min.js
+- 09:38:00.219 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+- 09:38:00.360 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[0222/093801.534:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:50198/vendor/chart.js/Chart.min.js (10)
+- 09:38:01.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50198/index.php
+- 09:38:02.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50198/index.php
+- 09:38:03.765 DEBUG: OnContextCreated()
+- 09:38:03.969 INFO: GET 200 /cidades.php
+- 09:38:03.110 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 09:38:03.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50198/cidades.php
+- 09:38:05.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50198/cidades.php
+- 09:38:06.656 DEBUG: OnContextCreated()
+- 09:38:06.860 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 09:38:07.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50198/registros.php?city_id=1&state_initials=PR
+- 09:38:14.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50198/registros.php?city_id=1&state_initials=PR
+- 09:38:14.031 DEBUG: OnContextCreated()
+- 09:38:14.235 INFO: GET 200 /usuariospainel.php
+- 09:38:14.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50198/usuariospainel.php
+- 09:38:32.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50198/usuariospainel.php
+- 09:38:32.125 DEBUG: OnContextCreated()
+- 09:38:32.313 INFO: GET 200 /pagamentos.php
+[0222/093832.782:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:50198/vendor/jquery/jquery.min.js (2)
+- 09:38:32.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50198/pagamentos.php
+[0222/093832.794:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:50198/vendor/jquery/jquery.min.js (2)
+- 09:38:33.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50198/pagamentos.php
+- 09:38:33.281 DEBUG: OnContextCreated()
+- 09:38:33.469 INFO: GET 200 /register.php?return=pagamentos
+- 09:38:33.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50198/register.php?return=pagamentos
+- 09:38:38.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50198/register.php?return=pagamentos
+- 09:38:39.547 DEBUG: OnContextCreated()
+- 09:38:40.657 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+[0222/093840.099:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+[0222/093840.107:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+- 09:38:41.641 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 09:38:41.890 DEBUG: OnContextCreated()
+- 09:38:41.375 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/anuncios.php
+- 09:38:43.703 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/anuncios.php
+- 09:38:43.000 DEBUG: OnContextCreated()
+- 09:38:43.360 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/cidades.php
+- 09:38:49.828 DEBUG: F5 pressed, reloading page
+- 09:38:49.828 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/cidades.php
+- 09:38:49.797 DEBUG: OnContextCreated()
+- 09:38:50.922 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/cidades.php
+- 09:38:56.282 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/cidades.php
+- 09:38:56.312 DEBUG: OnContextCreated()
+- 09:38:57.515 DEBUG: OnContextCreated()
+- 09:38:57.813 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/login.php
+- 09:38:59.828 DEBUG: WM_DESTROY
+- 09:38:59.828 DEBUG: RemoveBrowserWindow(): hwnd = 66984
+- 09:38:59.828 INFO: Stopping Mongoose web server
+- 09:38:59.828 DEBUG: Mongoose webserver stopped immediately
+- 09:38:59.844 DEBUG: OnBeforeClose() hwnd=66992
+- 09:38:59.844 DEBUG: RemoveBrowserWindow(): hwnd = 66992
+- 09:38:59.844 DEBUG: GetBrowserWindow(): not found, hwnd = 66992
+- 09:38:59.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:38:59.844 DEBUG: Calling CefQuitMessageLoop()
+- 09:38:59.703 DEBUG: OnBrowserDestroyed()
+- 09:38:59.094 INFO: Ended application
+- 09:38:59.094 INFO: --------------------------------------------------------
+- 09:39:09.000 INFO: --------------------------------------------------------
+- 09:39:09.000 INFO: Started application
+- 09:39:09.000 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 09:39:09.000 INFO: Log level = DEBUG4
+- 09:39:09.000 INFO: Starting Mongoose 3.9c web server
+- 09:39:09.000 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 09:39:09.000 INFO: Index files: index.html,index.php
+- 09:39:09.000 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 09:39:09.000 INFO: CGI pattern: **.php$
+- 09:39:09.000 INFO: Hide files patterns: 
+- 09:39:09.000 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:39:09.015 INFO: Web server url: http://127.0.0.1:50253/
+- 09:39:09.015 INFO: remote_debugging_port = 50994
+- 09:39:09.015 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=50994
+- 09:39:10.109 DEBUG: App::OnContextInitialized()
+- 09:39:10.109 DEBUG: Window max width/height = 1762/1032
+- 09:39:10.109 DEBUG: GetBrowserWindow(): not found, hwnd = 263438
+- 09:39:10.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:39:10.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:39:10.109 DEBUG: StoreBrowserWindow(): hwnd = 263438
+- 09:39:10.203 DEBUG: ClientHandler::OnAfterCreated()
+- 09:39:10.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:39:10.218 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:39:10.015 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=4987FD7570D2E403E3E4A1C7A5B700BE --mojo-platform-channel-handle=1700 /prefetch:2
+[0222/093910.392:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:39:10.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=38C4A7DE26F9213456EF02C5E694D1AD --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=38C4A7DE26F9213456EF02C5E694D1AD --renderer-client-id=3 --mojo-platform-channel-handle=2264 /prefetch:1
+- 09:39:10.063 DEBUG: OnBrowserCreated()
+- 09:39:12.422 DEBUG: OnContextCreated()
+- 09:39:12.078 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 09:39:12.078 INFO: GET 200 /css/local.css
+- 09:39:12.078 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 09:39:12.078 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 09:39:12.078 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 09:39:12.093 INFO: GET 200 /css/sb-admin.css
+- 09:39:12.093 INFO: GET 200 /
+- 09:39:12.140 INFO: GET 200 /Agenda Local - PNG.png
+- 09:39:12.328 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50253/
+- 09:39:12.688 DEBUG: OnContextCreated()
+- 09:39:12.343 INFO: GET 200 /login.php
+- 09:39:12.375 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 09:39:12.375 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 09:39:12.375 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 09:39:12.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50253/login.php
+- 09:39:16.421 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50253/login.php
+- 09:39:16.656 INFO: POST 302 /login.php
+- 09:39:16.188 DEBUG: OnContextCreated()
+- 09:39:16.843 INFO: GET 200 /index.php
+- 09:39:16.859 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+- 09:39:16.921 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 09:39:16.921 INFO: GET 200 /js/sb-admin.min.js
+- 09:39:16.921 INFO: GET 200 /vendor/chart.js/Chart.min.js
+- 09:39:16.921 INFO: GET 200 /js/demo/datatables-demo.js
+- 09:39:16.921 INFO: GET 200 /js/demo/chart-area-demo.js
+- 09:39:16.921 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+[0222/093917.042:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:50253/vendor/chart.js/Chart.min.js (10)
+- 09:39:17.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50253/index.php
+- 09:39:18.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50253/index.php
+- 09:39:18.031 DEBUG: OnContextCreated()
+- 09:39:18.687 INFO: GET 200 /cidades.php
+- 09:39:18.781 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 09:39:18.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50253/cidades.php
+- 09:39:25.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50253/cidades.php
+- 09:39:25.156 DEBUG: OnContextCreated()
+- 09:39:25.796 INFO: GET 200 /pagamentos.php
+- 09:39:25.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50253/pagamentos.php
+[0222/093926.035:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:50253/vendor/jquery/jquery.min.js (2)
+[0222/093926.045:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:50253/vendor/jquery/jquery.min.js (2)
+- 09:39:26.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50253/pagamentos.php
+- 09:39:26.219 DEBUG: OnContextCreated()
+- 09:39:26.859 INFO: GET 200 /register.php?return=pagamentos
+- 09:39:26.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50253/register.php?return=pagamentos
+- 09:39:30.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50253/register.php?return=pagamentos
+- 09:39:30.828 DEBUG: OnContextCreated()
+- 09:39:30.734 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+[0222/093930.716:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+[0222/093930.722:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+- 09:39:31.890 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 09:39:31.391 DEBUG: OnContextCreated()
+- 09:39:32.281 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/cidades.php
+- 09:39:34.218 DEBUG: WM_DESTROY
+- 09:39:34.218 DEBUG: RemoveBrowserWindow(): hwnd = 263438
+- 09:39:34.218 INFO: Stopping Mongoose web server
+- 09:39:34.218 DEBUG: Mongoose webserver stopped immediately
+- 09:39:34.234 DEBUG: OnBeforeClose() hwnd=459250
+- 09:39:34.250 DEBUG: RemoveBrowserWindow(): hwnd = 459250
+- 09:39:34.250 DEBUG: GetBrowserWindow(): not found, hwnd = 459250
+- 09:39:34.250 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:39:34.250 DEBUG: Calling CefQuitMessageLoop()
+- 09:39:34.688 DEBUG: OnBrowserDestroyed()
+- 09:39:34.453 INFO: Ended application
+- 09:39:34.453 INFO: --------------------------------------------------------
+- 09:40:37.000 INFO: --------------------------------------------------------
+- 09:40:37.000 INFO: Started application
+- 09:40:37.000 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 09:40:37.000 INFO: Log level = DEBUG4
+- 09:40:37.000 INFO: Starting Mongoose 3.9c web server
+- 09:40:37.016 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 09:40:37.016 INFO: Index files: index.html,index.php
+- 09:40:37.016 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 09:40:37.016 INFO: CGI pattern: **.php$
+- 09:40:37.016 INFO: Hide files patterns: 
+- 09:40:37.016 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:40:37.016 INFO: Web server url: http://127.0.0.1:50287/
+- 09:40:37.016 INFO: remote_debugging_port = 62860
+- 09:40:37.016 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=62860
+- 09:40:37.063 DEBUG: App::OnContextInitialized()
+- 09:40:37.063 DEBUG: Window max width/height = 1762/1032
+- 09:40:37.063 DEBUG: GetBrowserWindow(): not found, hwnd = 3080880
+- 09:40:37.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:40:37.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:40:37.078 DEBUG: StoreBrowserWindow(): hwnd = 3080880
+- 09:40:37.141 DEBUG: ClientHandler::OnAfterCreated()
+- 09:40:37.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:40:37.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=104B40A12146812835729FD6243F7B4E --mojo-platform-channel-handle=1704 /prefetch:2
+- 09:40:37.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:40:37.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=85BD786663998D808DA08DEF78FA06E7 --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=85BD786663998D808DA08DEF78FA06E7 --renderer-client-id=3 --mojo-platform-channel-handle=2260 /prefetch:1
+[0222/094037.285:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:40:37.063 DEBUG: OnBrowserCreated()
+- 09:40:38.594 INFO: GET 200 /
+- 09:40:38.391 DEBUG: OnContextCreated()
+- 09:40:38.610 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 09:40:38.610 INFO: GET 200 /css/local.css
+- 09:40:38.610 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 09:40:38.610 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 09:40:38.610 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 09:40:38.610 INFO: GET 200 /css/sb-admin.css
+- 09:40:38.672 INFO: GET 200 /Agenda Local - PNG.png
+- 09:40:38.828 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50287/
+- 09:40:38.625 DEBUG: OnContextCreated()
+- 09:40:38.844 INFO: GET 200 /login.php
+- 09:40:38.844 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 09:40:38.844 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 09:40:38.844 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 09:40:39.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50287/login.php
+- 09:40:44.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50287/login.php
+- 09:40:44.500 INFO: POST 302 /login.php
+- 09:40:44.532 DEBUG: OnContextCreated()
+- 09:40:44.735 INFO: GET 200 /index.php
+- 09:40:44.750 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 09:40:44.750 INFO: GET 200 /js/sb-admin.min.js
+- 09:40:44.750 INFO: GET 200 /js/demo/datatables-demo.js
+- 09:40:44.750 INFO: GET 200 /js/demo/chart-area-demo.js
+- 09:40:44.750 INFO: GET 200 /vendor/chart.js/Chart.min.js
+- 09:40:44.750 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+- 09:40:44.953 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[0222/094045.108:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:50287/vendor/chart.js/Chart.min.js (10)
+- 09:40:45.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50287/index.php
+- 09:40:46.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50287/index.php
+- 09:40:46.657 DEBUG: OnContextCreated()
+- 09:40:46.875 INFO: GET 200 /usuariospainel.php
+- 09:40:47.985 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 09:40:47.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50287/usuariospainel.php
+- 09:56:55.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50287/usuariospainel.php
+- 09:56:55.266 DEBUG: OnContextCreated()
+- 09:56:55.469 INFO: GET 200 /anuncios.php
+- 09:56:56.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50287/anuncios.php
+- 09:56:56.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50287/anuncios.php
+- 09:56:59.094 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50287/cidades.php
+- 09:56:59.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50287/anuncios.php
+- 09:56:59.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50287/anuncios.php
+- 09:56:59.969 DEBUG: OnContextCreated()
+- 09:56:59.188 DEBUG: OnLoadError, errorCode=-21, failedUrl=http://127.0.0.1:50287/cidades.php
+- 09:56:59.188 ERROR: Failed to load URL: http://127.0.0.1:50287/cidades.php
+- 09:56:59.188 DEBUG: OnLoadingStateChange: loading=0, url=data:text/html,chromewebdata
+- 09:56:59.188 DEBUG: OnLoadingStateChange: loading=1, url=data:text/html,chromewebdata
+- 09:56:59.000 DEBUG: OnContextCreated()
+- 09:56:59.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50287/cidades.php
+- 10:00:01.828 DEBUG: WM_DESTROY
+- 10:00:01.828 DEBUG: RemoveBrowserWindow(): hwnd = 3080880
+- 10:00:01.828 INFO: Stopping Mongoose web server
+- 10:00:01.828 DEBUG: Mongoose webserver stopped immediately
+- 10:00:01.860 DEBUG: OnBeforeClose() hwnd=394500
+- 10:00:01.860 DEBUG: RemoveBrowserWindow(): hwnd = 394500
+- 10:00:01.860 DEBUG: GetBrowserWindow(): not found, hwnd = 394500
+- 10:00:01.860 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:00:01.860 DEBUG: Calling CefQuitMessageLoop()
+- 10:00:02.079 DEBUG: OnBrowserDestroyed()
+- 10:00:03.094 INFO: Ended application
+- 10:00:03.094 INFO: --------------------------------------------------------
+- 14:10:24.031 INFO: --------------------------------------------------------
+- 14:10:24.047 INFO: Started application
+- 14:10:24.047 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 14:10:24.047 INFO: Log level = DEBUG4
+- 14:10:24.047 INFO: Starting Mongoose 3.9c web server
+- 14:10:24.047 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 14:10:24.047 INFO: Index files: index.html,index.php
+- 14:10:24.047 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 14:10:24.047 INFO: CGI pattern: **.php$
+- 14:10:24.062 INFO: Hide files patterns: 
+- 14:10:24.062 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:10:24.062 INFO: Web server url: http://127.0.0.1:56275/
+- 14:10:24.062 INFO: remote_debugging_port = 61901
+- 14:10:24.062 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=61901
+- 14:10:26.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=AB2B95BA5A5CF9A9210AB77B73A1354C --mojo-platform-channel-handle=1692 /prefetch:2
+- 14:10:26.344 DEBUG: App::OnContextInitialized()
+- 14:10:26.344 DEBUG: Window max width/height = 1762/1032
+- 14:10:26.359 DEBUG: GetBrowserWindow(): not found, hwnd = 526498
+- 14:10:26.359 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:10:26.359 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:10:26.359 DEBUG: StoreBrowserWindow(): hwnd = 526498
+- 14:10:26.500 DEBUG: ClientHandler::OnAfterCreated()
+- 14:10:26.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:10:26.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=750923E84E50649D462D078F3FB19D67 --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=750923E84E50649D462D078F3FB19D67 --renderer-client-id=3 --mojo-platform-channel-handle=2252 /prefetch:1
+- 14:10:26.625 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:10:33.766 DEBUG: OnBrowserCreated()
+[0225/141033.868:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:10:38.734 INFO: GET 200 /
+- 14:10:39.844 DEBUG: OnContextCreated()
+- 14:10:39.625 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 14:10:39.625 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 14:10:39.641 INFO: GET 200 /css/local.css
+- 14:10:39.641 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 14:10:39.641 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 14:10:39.641 INFO: GET 200 /css/sb-admin.css
+- 14:10:39.922 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:56275/
+- 14:10:39.922 INFO: GET 200 /login.php
+- 14:10:39.953 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 14:10:40.516 DEBUG: OnContextCreated()
+- 14:10:40.078 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 14:10:40.094 INFO: GET 200 /Agenda Local - PNG.png
+- 14:10:40.109 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 14:10:40.156 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 14:10:41.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/login.php
+- 14:16:20.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/login.php
+- 14:16:21.969 INFO: POST 302 /login.php
+- 14:16:22.203 INFO: GET 200 /index.php
+- 14:16:22.719 DEBUG: OnContextCreated()
+- 14:16:22.359 INFO: GET 200 /js/sb-admin.min.js
+- 14:16:22.375 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 14:16:22.406 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+- 14:16:22.437 INFO: GET 200 /js/demo/datatables-demo.js
+- 14:16:22.516 INFO: GET 200 /js/demo/chart-area-demo.js
+- 14:16:22.516 INFO: GET 200 /vendor/chart.js/Chart.min.js
+- 14:16:23.031 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[0225/141625.044:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:56275/vendor/chart.js/Chart.min.js (10)
+- 14:16:25.641 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:56275/index.php
+- 14:16:25.125 DEBUG: OnContextCreated()
+- 14:16:25.656 INFO: GET 200 /cidades.php
+- 14:16:26.031 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 14:16:26.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php
+- 14:16:27.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php
+- 14:16:28.281 DEBUG: OnContextCreated()
+- 14:16:28.828 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 14:16:30.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR
+- 14:16:34.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR
+- 14:16:34.266 DEBUG: OnContextCreated()
+- 14:16:34.812 INFO: POST 200 /registros.php?city_id=1&state_initials=PR
+- 14:16:35.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR
+- 14:16:35.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR
+- 14:16:35.750 INFO: GET 200 /registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:35.235 DEBUG: OnContextCreated()
+- 14:16:36.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:38.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:38.125 DEBUG: OnContextCreated()
+- 14:16:38.656 INFO: POST 200 /registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:39.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:39.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:39.578 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 14:16:39.063 DEBUG: OnContextCreated()
+- 14:16:40.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR
+- 14:16:42.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR
+- 14:16:42.438 DEBUG: OnContextCreated()
+- 14:16:43.000 INFO: POST 200 /registros.php?city_id=1&state_initials=PR
+- 14:16:43.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR
+- 14:16:43.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR
+- 14:16:43.625 INFO: GET 200 /registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:43.110 DEBUG: OnContextCreated()
+- 14:16:44.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:45.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:46.813 DEBUG: OnContextCreated()
+- 14:16:46.344 INFO: POST 200 /registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:46.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:46.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR&modal_toshow=msgSucessModal
+- 14:16:47.328 INFO: GET 200 /registros.php?city_id=1&state_initials=PR
+- 14:16:47.797 DEBUG: OnContextCreated()
+- 14:16:47.687 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:56275/registros.php?city_id=1&state_initials=PR
+- 14:16:47.687 INFO: GET 200 /pagamentos.php
+- 14:16:47.156 DEBUG: OnContextCreated()
+- 14:16:47.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/pagamentos.php
+[0225/141647.802:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:56275/vendor/jquery/jquery.min.js (2)
+[0225/141647.807:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:56275/vendor/jquery/jquery.min.js (2)
+- 14:16:48.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/pagamentos.php
+- 14:16:49.500 DEBUG: OnContextCreated()
+- 14:16:49.031 INFO: GET 200 /anuncios.php
+- 14:16:49.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/anuncios.php
+- 14:16:49.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/anuncios.php
+- 14:16:50.531 DEBUG: OnContextCreated()
+- 14:16:50.078 INFO: GET 200 /cidades.php
+- 14:16:50.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php
+- 14:16:51.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php
+- 14:16:51.625 DEBUG: OnContextCreated()
+- 14:16:51.156 INFO: GET 200 /cidades.php
+- 14:16:51.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php
+- 14:16:51.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php
+- 14:16:52.594 DEBUG: OnContextCreated()
+- 14:16:52.141 INFO: GET 200 /cidades.php
+- 14:16:52.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php
+- 14:16:53.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php
+- 14:16:53.719 DEBUG: OnContextCreated()
+- 14:16:53.266 INFO: GET 200 /cidades.php
+- 14:16:53.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php
+- 14:16:53.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php
+- 14:16:54.688 DEBUG: OnContextCreated()
+- 14:16:54.234 INFO: GET 200 /usuariospainel.php
+- 14:16:54.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/usuariospainel.php
+- 14:16:54.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/usuariospainel.php
+- 14:16:55.578 DEBUG: OnContextCreated()
+- 14:16:55.109 INFO: GET 200 /usuariosaplicativo.php
+[0225/141655.189:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot set property '_DT_CellIndex' of undefined", source: http://127.0.0.1:56275/vendor/jquery/jquery.min.js (2)
+- 14:16:55.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/usuariosaplicativo.php
+[0225/141655.200:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot set property '_DT_CellIndex' of undefined", source: http://127.0.0.1:56275/vendor/jquery/jquery.min.js (2)
+- 14:16:56.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/usuariosaplicativo.php
+- 14:16:56.625 DEBUG: OnContextCreated()
+- 14:16:56.156 INFO: GET 200 /pagamentos.php
+- 14:16:56.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/pagamentos.php
+[0225/141656.235:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:56275/vendor/jquery/jquery.min.js (2)
+[0225/141656.239:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:56275/vendor/jquery/jquery.min.js (2)
+- 14:16:56.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/pagamentos.php
+- 14:16:57.531 DEBUG: OnContextCreated()
+- 14:16:57.062 INFO: GET 200 /anuncios.php
+- 14:16:57.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/anuncios.php
+- 14:16:57.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/anuncios.php
+- 14:16:57.297 DEBUG: OnContextCreated()
+- 14:16:57.844 INFO: GET 200 /cidades.php
+- 14:16:57.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php
+- 14:17:08.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php
+- 14:17:09.563 DEBUG: OnContextCreated()
+- 14:17:09.109 INFO: POST 200 /cidades.php
+- 14:17:09.750 DEBUG: OnContextCreated()
+- 14:17:09.297 INFO: GET 200 /cidades.php?modal_toshow=insertConfirmModal
+- 14:17:09.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php?modal_toshow=insertConfirmModal
+- 14:17:10.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php?modal_toshow=insertConfirmModal
+- 14:17:10.844 DEBUG: OnContextCreated()
+- 14:17:10.375 INFO: POST 200 /cidades.php?modal_toshow=insertConfirmModal
+- 14:17:10.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php?modal_toshow=insertConfirmModal
+- 14:17:10.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php?modal_toshow=insertConfirmModal
+- 14:17:10.078 DEBUG: OnContextCreated()
+- 14:17:10.609 INFO: GET 200 /cidades.php
+- 14:17:10.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php
+- 14:17:11.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php
+- 14:17:11.781 DEBUG: OnContextCreated()
+- 14:17:11.328 INFO: GET 200 /cidades.php
+- 14:17:11.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/cidades.php
+- 14:17:11.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/cidades.php
+- 14:17:12.469 DEBUG: OnContextCreated()
+- 14:17:12.000 INFO: GET 200 /anuncios.php
+- 14:17:12.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/anuncios.php
+- 14:17:12.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/anuncios.php
+- 14:17:12.297 DEBUG: OnContextCreated()
+- 14:17:12.828 INFO: GET 200 /pagamentos.php
+- 14:17:12.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/pagamentos.php
+[0225/141712.903:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:56275/vendor/jquery/jquery.min.js (2)
+[0225/141712.907:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://127.0.0.1:56275/vendor/jquery/jquery.min.js (2)
+- 14:17:13.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/pagamentos.php
+- 14:17:13.360 DEBUG: OnContextCreated()
+- 14:17:13.891 INFO: GET 200 /register.php?return=pagamentos
+- 14:17:13.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56275/register.php?return=pagamentos
+- 14:17:15.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56275/register.php?return=pagamentos
+- 14:17:15.281 DEBUG: OnContextCreated()
+- 14:17:16.922 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+[0225/141716.967:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+[0225/141716.973:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+- 14:17:17.391 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 14:17:17.031 DEBUG: OnContextCreated()
+- 14:17:17.578 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/usuariospainel.php
+- 14:17:36.531 DEBUG: F5 pressed, reloading page
+- 14:17:36.531 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/usuariospainel.php
+- 14:17:37.485 DEBUG: OnContextCreated()
+- 14:17:38.687 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/usuariospainel.php
+- 14:17:56.062 DEBUG: F5 pressed, reloading page
+- 14:17:56.062 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/usuariospainel.php
+- 14:17:56.703 DEBUG: OnContextCreated()
+- 14:17:56.719 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/usuariospainel.php
+- 14:17:57.359 DEBUG: F5 pressed, reloading page
+- 14:17:57.359 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/usuariospainel.php
+- 14:17:57.953 DEBUG: OnContextCreated()
+- 14:17:57.891 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/usuariospainel.php
+[0225/141803.134:INFO:CONSOLE(40)] "Uncaught ReferenceError: logoutClick is not defined", source: http://localhost/painelagendalocal/painelAdm/usuariospainel.php (40)
+- 14:18:04.047 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/usuariospainel.php
+- 14:18:04.656 DEBUG: OnContextCreated()
+- 14:18:04.797 DEBUG: OnContextCreated()
+- 14:18:04.422 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/login.php
+- 14:18:10.062 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/login.php
+- 14:18:10.719 DEBUG: OnContextCreated()
+[0225/141810.586:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://localhost/painelagendalocal/painelAdm/vendor/chart.js/Chart.min.js (10)
+- 14:18:10.562 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/index.php
+- 14:18:11.906 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/index.php
+- 14:18:12.547 DEBUG: OnContextCreated()
+- 14:18:12.187 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/cidades.php
+- 14:18:13.172 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/cidades.php
+- 14:18:13.766 DEBUG: OnContextCreated()
+- 14:18:13.359 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/anuncios.php
+- 14:18:15.078 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/anuncios.php
+- 14:18:15.547 DEBUG: OnContextCreated()
+- 14:18:15.141 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+[0225/141815.173:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+[0225/141815.179:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+- 14:18:15.828 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 14:18:15.438 DEBUG: OnContextCreated()
+- 14:18:16.016 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/register.php?return=pagamentos
+- 14:18:17.078 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/register.php?return=pagamentos
+- 14:18:17.563 DEBUG: OnContextCreated()
+- 14:18:17.156 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+[0225/141817.183:INFO:CONSOLE(2)] "jQuery.Deferred exception: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+[0225/141817.187:INFO:CONSOLE(2)] "Uncaught TypeError: Cannot read property 'aDataSort' of undefined", source: http://localhost/painelagendalocal/painelAdm/vendor/jquery/jquery.min.js (2)
+- 14:18:18.469 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/painelagendalocal/painelAdm/pagamentos.php
+- 14:18:18.016 DEBUG: OnContextCreated()
+- 14:18:18.641 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/painelagendalocal/painelAdm/usuariospainel.php
+- 14:18:21.094 DEBUG: WM_DESTROY
+- 14:18:21.094 DEBUG: RemoveBrowserWindow(): hwnd = 526498
+- 14:18:21.094 INFO: Stopping Mongoose web server
+- 14:18:21.094 DEBUG: Mongoose webserver stopped immediately
+- 14:18:21.484 DEBUG: OnBeforeClose() hwnd=67972
+- 14:18:21.484 DEBUG: RemoveBrowserWindow(): hwnd = 67972
+- 14:18:21.484 DEBUG: GetBrowserWindow(): not found, hwnd = 67972
+- 14:18:21.484 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:18:21.484 DEBUG: Calling CefQuitMessageLoop()
+- 14:18:22.688 DEBUG: OnBrowserDestroyed()
+- 14:18:23.250 INFO: Ended application
+- 14:18:23.266 INFO: --------------------------------------------------------
+- 15:54:35.032 INFO: --------------------------------------------------------
+- 15:54:35.047 INFO: Started application
+- 15:54:35.047 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 15:54:35.047 INFO: Log level = DEBUG4
+- 15:54:35.047 INFO: Starting Mongoose 3.9c web server
+- 15:54:35.047 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 15:54:35.047 INFO: Index files: index.html,index.php
+- 15:54:35.047 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 15:54:35.047 INFO: CGI pattern: **.php$
+- 15:54:35.047 INFO: Hide files patterns: 
+- 15:54:35.047 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:54:35.047 INFO: Web server url: http://127.0.0.1:57011/
+- 15:54:35.047 INFO: remote_debugging_port = 52273
+- 15:54:35.047 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=52273
+- 15:54:37.078 DEBUG: App::OnContextInitialized()
+- 15:54:37.078 DEBUG: Window max width/height = 1762/1032
+- 15:54:37.078 DEBUG: GetBrowserWindow(): not found, hwnd = 3934752
+- 15:54:37.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:54:37.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:54:37.078 DEBUG: StoreBrowserWindow(): hwnd = 3934752
+- 15:54:37.235 DEBUG: ClientHandler::OnAfterCreated()
+- 15:54:37.235 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:54:37.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:54:38.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F88095A7CE7A775F2160428C9A0F69CE --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F88095A7CE7A775F2160428C9A0F69CE --renderer-client-id=3 --mojo-platform-channel-handle=2236 /prefetch:1
+- 15:54:39.031 DEBUG: OnBrowserCreated()
+- 15:54:40.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=F0612355731A4BF9D39B39E35E04DC27 --mojo-platform-channel-handle=1692 /prefetch:2
+[0225/155440.906:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:54:43.469 INFO: GET 200 /
+- 15:54:44.765 DEBUG: OnContextCreated()
+- 15:54:44.891 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 15:54:44.922 INFO: GET 200 /css/local.css
+- 15:54:44.922 INFO: GET 200 /css/sb-admin.css
+- 15:54:44.922 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 15:54:44.938 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 15:54:44.953 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 15:54:45.110 INFO: GET 200 /login.php
+- 15:54:45.203 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 15:54:45.203 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:57011/
+- 15:54:45.265 DEBUG: OnContextCreated()
+- 15:54:45.282 INFO: GET 200 /Agenda Local - PNG.png
+- 15:54:45.297 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 15:54:45.407 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 15:54:46.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57011/login.php
+- 15:54:51.532 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57011/login.php
+- 15:54:52.219 INFO: POST 302 /login.php
+- 15:54:52.515 DEBUG: OnContextCreated()
+- 15:54:52.516 INFO: GET 200 /index.php
+- 15:54:52.641 INFO: GET 200 /js/sb-admin.min.js
+- 15:54:52.657 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 15:54:52.688 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+- 15:54:52.703 INFO: GET 200 /js/demo/datatables-demo.js
+- 15:54:52.719 INFO: GET 200 /js/demo/chart-area-demo.js
+- 15:54:52.750 INFO: GET 200 /vendor/chart.js/Chart.min.js
+- 15:54:52.907 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[0225/155454.054:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:57011/vendor/chart.js/Chart.min.js (10)
+- 15:54:54.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57011/index.php
+- 15:54:55.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57011/index.php
+- 15:54:55.609 DEBUG: OnContextCreated()
+- 15:54:55.610 INFO: GET 200 /cidades.php
+- 15:54:55.782 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 15:54:56.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57011/cidades.php
+- 15:55:00.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57011/cidades.php
+- 15:55:01.453 DEBUG: OnContextCreated()
+- 15:55:01.453 INFO: GET 200 /registros.php?city_id=6&state_initials=AM
+- 15:55:01.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57011/registros.php?city_id=6&state_initials=AM
+- 15:55:10.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57011/registros.php?city_id=6&state_initials=AM
+- 15:55:10.937 DEBUG: OnContextCreated()
+- 15:55:10.922 INFO: GET 200 /anuncios.php
+- 15:55:11.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57011/anuncios.php
+- 15:55:16.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57011/anuncios.php
+- 15:55:16.640 DEBUG: OnContextCreated()
+- 15:55:16.641 INFO: GET 200 /usuariospainel.php
+- 15:55:16.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57011/usuariospainel.php
+- 15:55:22.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57011/usuariospainel.php
+- 15:55:23.031 DEBUG: OnContextCreated()
+- 15:55:23.063 INFO: GET 200 /cidades.php
+- 15:55:23.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57011/cidades.php
+- 15:55:24.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57011/cidades.php
+- 15:55:24.968 DEBUG: OnContextCreated()
+- 15:55:24.953 INFO: GET 200 /cidades.php
+- 15:55:25.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57011/cidades.php
+- 15:55:27.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57011/cidades.php
+- 15:55:27.500 DEBUG: OnContextCreated()
+- 15:55:27.485 INFO: GET 200 /registros.php?city_id=6&state_initials=AM
+- 15:55:27.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57011/registros.php?city_id=6&state_initials=AM
+- 15:55:34.735 DEBUG: WM_DESTROY
+- 15:55:34.735 DEBUG: RemoveBrowserWindow(): hwnd = 3934752
+- 15:55:34.735 INFO: Stopping Mongoose web server
+- 15:55:34.735 DEBUG: Mongoose webserver stopped immediately
+- 15:55:34.891 DEBUG: OnBeforeClose() hwnd=10160212
+- 15:55:34.891 DEBUG: RemoveBrowserWindow(): hwnd = 10160212
+- 15:55:34.891 DEBUG: GetBrowserWindow(): not found, hwnd = 10160212
+- 15:55:34.891 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:55:34.891 DEBUG: Calling CefQuitMessageLoop()
+- 15:55:35.281 DEBUG: OnBrowserDestroyed()
+- 15:55:36.297 INFO: Ended application
+- 15:55:36.297 INFO: --------------------------------------------------------
+- 15:56:15.000 INFO: --------------------------------------------------------
+- 15:56:15.000 INFO: Started application
+- 15:56:15.000 INFO: Logging to: C:\xampp\htdocs\php_desktop_demo\debug.log
+- 15:56:15.000 INFO: Log level = DEBUG4
+- 15:56:15.000 INFO: Starting Mongoose 3.9c web server
+- 15:56:15.000 INFO: WWW directory: C:\xampp\htdocs\php_desktop_demo\www
+- 15:56:15.000 INFO: Index files: index.html,index.php
+- 15:56:15.000 INFO: CGI interpreter: C:\xampp\htdocs\php_desktop_demo\php\php-cgi.exe
+- 15:56:15.000 INFO: CGI pattern: **.php$
+- 15:56:15.000 INFO: Hide files patterns: 
+- 15:56:15.000 INFO: CGI environment variables set: TMP=C:\Users\joaol\AppData\Local\Temp\,TEMP=C:\Users\joaol\AppData\Local\Temp\,TMPDIR=C:\Users\joaol\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:56:15.016 INFO: Web server url: http://127.0.0.1:57052/
+- 15:56:15.016 INFO: remote_debugging_port = 53861
+- 15:56:15.016 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --remote-debugging-port=53861
+- 15:56:15.063 DEBUG: App::OnContextInitialized()
+- 15:56:15.063 DEBUG: Window max width/height = 1762/1032
+- 15:56:15.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1313370
+- 15:56:15.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:56:15.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:56:15.078 DEBUG: StoreBrowserWindow(): hwnd = 1313370
+- 15:56:15.141 DEBUG: ClientHandler::OnAfterCreated()
+- 15:56:15.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:56:15.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --service-request-channel-token=E7411E6E40D0706A354A947874EB0CE8 --mojo-platform-channel-handle=1700 /prefetch:2
+- 15:56:15.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:56:15.016 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\php_desktop_demo\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7B7ADD844E7EC737E2DB1DF6C8DBA97B --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\php_desktop_demo\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7B7ADD844E7EC737E2DB1DF6C8DBA97B --renderer-client-id=3 --mojo-platform-channel-handle=2252 /prefetch:1
+[0225/155615.818:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:56:15.063 DEBUG: OnBrowserCreated()
+- 15:56:17.578 INFO: GET 200 /
+- 15:56:17.328 DEBUG: OnContextCreated()
+- 15:56:17.578 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 15:56:17.594 INFO: GET 200 /css/local.css
+- 15:56:17.594 INFO: GET 200 /glyph_css/glyph_bootstrap.css
+- 15:56:17.594 INFO: GET 200 /vendor/fontawesome-free/css/all.min.css
+- 15:56:17.594 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.css
+- 15:56:17.594 INFO: GET 200 /css/sb-admin.css
+- 15:56:17.703 INFO: GET 200 /Agenda Local - PNG.png
+- 15:56:17.750 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:57052/
+- 15:56:17.516 DEBUG: OnContextCreated()
+- 15:56:17.766 INFO: GET 200 /login.php
+- 15:56:17.766 INFO: GET 200 /vendor/jquery/jquery.min.js
+- 15:56:17.781 INFO: GET 200 /vendor/jquery-easing/jquery.easing.min.js
+- 15:56:17.781 INFO: GET 200 /vendor/bootstrap/js/bootstrap.bundle.min.js
+- 15:56:17.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57052/login.php
+- 15:56:22.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57052/login.php
+- 15:56:23.563 INFO: POST 302 /login.php
+- 15:56:23.469 DEBUG: OnContextCreated()
+- 15:56:23.719 INFO: GET 200 /index.php
+- 15:56:23.735 INFO: GET 200 /vendor/datatables/dataTables.bootstrap4.js
+- 15:56:23.735 INFO: GET 200 /js/sb-admin.min.js
+- 15:56:23.735 INFO: GET 200 /js/demo/datatables-demo.js
+- 15:56:23.735 INFO: GET 200 /js/demo/chart-area-demo.js
+- 15:56:23.735 INFO: GET 200 /vendor/chart.js/Chart.min.js
+- 15:56:23.735 INFO: GET 200 /vendor/datatables/jquery.dataTables.js
+- 15:56:23.906 INFO: GET 200 /vendor/fontawesome-free/webfonts/fa-solid-900.woff2
+[0225/155623.593:INFO:CONSOLE(10)] "Uncaught TypeError: Cannot read property 'length' of null", source: http://127.0.0.1:57052/vendor/chart.js/Chart.min.js (10)
+- 15:56:23.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57052/index.php
+- 15:56:40.047 INFO: GET 200 /glyph_fonts/glyphicons-halflings-regular.woff2
+- 16:02:23.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57052/index.php
+- 16:02:23.453 DEBUG: OnContextCreated()
+- 16:02:23.719 INFO: GET 200 /cidades.php
+- 16:02:23.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57052/cidades.php
+- 16:02:28.453 DEBUG: WM_DESTROY
+- 16:02:28.453 DEBUG: RemoveBrowserWindow(): hwnd = 1313370
+- 16:02:28.453 INFO: Stopping Mongoose web server
+- 16:02:28.453 DEBUG: Mongoose webserver stopped immediately
+- 16:02:28.469 DEBUG: OnBeforeClose() hwnd=1771678
+- 16:02:28.469 DEBUG: RemoveBrowserWindow(): hwnd = 1771678
+- 16:02:28.469 DEBUG: GetBrowserWindow(): not found, hwnd = 1771678
+- 16:02:28.469 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:02:28.469 DEBUG: Calling CefQuitMessageLoop()
+- 16:02:28.578 INFO: Ended application
+- 16:02:28.578 INFO: --------------------------------------------------------
