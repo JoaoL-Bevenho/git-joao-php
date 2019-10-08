@@ -1,1 +1,0 @@
-INSERT INTO clientes VALUES( null, "Teste Londrina Pearl Harbor", 1, "eferfer 32", "_CIDADE_", "2433242", 3, "2342423", "ferger", "3", "http://192.168.0.102:8080/painel-agendalocal/painelAdm/imagens/;Ouro", "", 50);
