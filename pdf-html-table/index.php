@@ -18,6 +18,24 @@
 		return $output;
 	}
 
+	function fetch_data_between($pdf_start, $pdf_end)
+	{
+		$output = '';
+		$conn = mysqli_connect('localhost', 'root', 'drfsew@', 'pdfcreator');
+		$sql = "SELECT * FROM pdfcreator.pdf_data WHERE pdf_data.pdf_date BETWEEN '".$pdf_start."' AND '".$pdf_end."' ORDER BY pdf_data.pdf_id ASC";
+		$result = mysqli_query($conn, $sql);
+		while($row = mysqli_fetch_array($result))
+		{
+			$output .= '<tr>
+			<td>'.$row["pdf_id"].'</td>
+			<td>'.$row["pdf_name"].'</td>
+			<td>'.$row["pdf_email"].'</td>
+			<td>'.$row["pdf_date"].'</td>
+			</tr>';
+		}
+		return $output;
+	}
+
 	if(isset($_POST["generate_pdf"]))
 	{
 		require_once('tcpdf/tcpdf.php');
@@ -44,12 +62,26 @@
 		<tr>
 		<th width="5%">PDF Id</th>
 		<th width="30%">PDF Name</th>
-		<th width="15%">PDF Email</th>
-		<th width="50%">PDF Date</th>
+		<th width="45%">PDF Email</th>
+		<th width="20%">PDF Date</th>
 		</tr>';
-		$content .= fetch_data();
+		if((isset($_POST["pdf-start"])) && (isset($_POST["pdf-end"])))
+		{
+			echo '<script type="text/javascript">console.log("1");</script>';
+			if(($_POST["pdf-start"]!=$_POST["pdf-end"]))
+			{
+				echo '<script type="text/javascript">console.log("2");</script>';
+				$content .= fetch_data_between($_POST["pdf-start"], $_POST["pdf-end"]);
+			}
+		}
+		else
+		{
+			echo '<script type="text/javascript">console.log("3");</script>';
+			$content .= fetch_data();
+		}
 		$content .= '</table>';
 		$obj_pdf->writeHTML($content);
+		ob_end_clean();
 		$obj_pdf->Output('pdfphp-file.pdf', 'I');
 	}
 ?>
@@ -67,6 +99,10 @@
 			<div class="table-responsive">
 				<div class="col-md-12" align="right">
 					<form method="post">
+						<label for="start">Start date:</label>
+						<input type="date" id="pdf-start" name="pdf-start" value="<?php echo date('Y-m-d'); ?>" min="2010-01-01">
+						<label for="start">End date:</label>
+						<input type="date" id="pdf-end" name="pdf-end" value="<?php echo date('Y-m-d'); ?>" min="2010-01-01">
 						<input type="submit" name="generate_pdf" class="btn btn-success" value="Generate PDF" />
 					</form>
 				</div>
@@ -76,14 +112,16 @@
 					<tr>
 						<th width="5%">PDF Id</th>
 						<th width="30%">PDF Name</th>
-						<th width="15%">PDF Email</th>
-						<th width="50%">PDF Date</th>
+						<th width="45%">PDF Email</th>
+						<th width="20%">PDF Date</th>
 					</tr>
 					<?php echo fetch_data(); ?>
 				</table>
 			</div>
 		</div>
 	</body>
+	<script type="text/javascript">
+		console.log(document.getElementById('pdf-start').value);
+		console.log(document.getElementById('pdf-end').value);
+	</script>
 </html>
-
-App Process Integration TCS -GL
